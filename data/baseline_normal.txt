@@ -1,0 +1,1000 @@
+Jun  1 00:00:27 server-prod-01 sshd[9671]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 00:01:02 server-prod-01 sshd[3459]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 00:01:17 server-prod-01 dhclient[16398]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 00:01:36 server-prod-01 sshd[10264]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 00:02:00 server-prod-01 sshd[7482]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 00:02:29 server-prod-01 nginx: 192.168.1.100 - - [00:02:29 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 00:03:02 server-prod-01 systemd[1]: Starting Logrotate Service...
+Jun  1 00:04:29 server-prod-01 systemd-logind[850]: Session 500 logged out. Destroying.
+Jun  1 00:05:22 server-prod-01 dhclient[17399]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 00:06:33 server-prod-01 systemd[1]: Started User Runtime Directory /run/user/1001.
+Jun  1 00:07:29 server-prod-01 systemd-logind[850]: New session 500 of user admin_user.
+Jun  1 00:08:57 server-prod-01 CRON[2318]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 00:10:12 server-prod-01 nginx: 192.168.1.102 - - [00:10:12 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 00:11:41 server-prod-01 dhclient[17112]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 00:12:56 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 00:13:24 server-prod-01 logrotate[14488]: syslog rotated successfully.
+Jun  1 00:14:15 server-prod-01 dhclient[2202]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 00:14:41 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 00:15:47 server-prod-01 nginx: 192.168.1.100 - - [00:15:47 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 00:16:08 server-prod-01 sshd[12854]: Disconnected from user admin_user 192.168.1.50 port 65486
+Jun  1 00:17:19 server-prod-01 CRON[9750]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 00:18:10 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 00:18:28 server-prod-01 sshd[11182]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 00:19:53 server-prod-01 dhclient[8362]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 00:21:07 server-prod-01 systemd[1]: Starting User Manager for UID 1001...
+Jun  1 00:21:59 server-prod-01 nginx: 192.168.1.102 - - [00:21:59 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 00:23:14 server-prod-01 sshd[5739]: Received disconnect from 192.168.1.50 port 61721:11: user request
+Jun  1 00:23:53 server-prod-01 nginx: 192.168.1.100 - - [00:23:53 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 00:25:01 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 00:25:52 server-prod-01 systemd-logind[850]: Removed session 501.
+Jun  1 00:27:04 server-prod-01 nginx: 192.168.1.102 - - [00:27:04 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 00:28:29 server-prod-01 nginx: 192.168.1.102 - - [00:28:29 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 00:29:08 server-prod-01 sshd[13549]: Disconnected from user admin_user 192.168.1.50 port 56805
+Jun  1 00:30:15 server-prod-01 CRON[16498]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 00:31:19 server-prod-01 logrotate[2213]: syslog rotated successfully.
+Jun  1 00:32:38 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 00:34:00 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 00:34:34 server-prod-01 systemd[1]: Created slice User Slice of UID 1001.
+Jun  1 00:35:39 server-prod-01 systemd[1]: Stopped User Manager for UID 1001.
+Jun  1 00:36:34 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 00:37:19 server-prod-01 systemd-logind[850]: New session 501 of user admin_user.
+Jun  1 00:37:46 server-prod-01 systemd[1]: Created slice User Slice of UID 1001.
+Jun  1 00:38:04 server-prod-01 CRON[2838]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 00:39:04 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 00:40:26 server-prod-01 dhclient[6900]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 00:41:03 server-prod-01 systemd[1]: Started User Runtime Directory /run/user/1001.
+Jun  1 00:42:21 server-prod-01 logrotate[16110]: alert logs rotated successfully.
+Jun  1 00:43:34 server-prod-01 systemd-logind[850]: Removed session 502.
+Jun  1 00:44:25 server-prod-01 nginx: 192.168.1.100 - - [00:44:25 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 00:45:24 server-prod-01 systemd-logind[850]: Removed session 502.
+Jun  1 00:46:37 server-prod-01 systemd-logind[850]: New session 502 of user admin_user.
+Jun  1 00:47:05 server-prod-01 sshd[12762]: Received disconnect from 192.168.1.50 port 58847:11: user request
+Jun  1 00:47:57 server-prod-01 CRON[9994]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 00:49:24 server-prod-01 CRON[10378]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 00:50:24 server-prod-01 sshd[9212]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 00:50:51 server-prod-01 CRON[15444]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 00:52:20 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 00:53:12 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 00:53:52 server-prod-01 logrotate[12988]: auth.log rotated successfully.
+Jun  1 00:54:28 server-prod-01 systemd-logind[850]: Session 503 logged out. Destroying.
+Jun  1 00:54:57 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 00:56:02 server-prod-01 nginx: 192.168.1.102 - - [00:56:02 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 00:56:18 server-prod-01 systemd-logind[850]: Removed session 503.
+Jun  1 00:57:20 server-prod-01 systemd-logind[850]: Removed session 503.
+Jun  1 00:57:48 server-prod-01 sshd[1820]: Received disconnect from 192.168.1.50 port 59900:11: user request
+Jun  1 00:58:31 server-prod-01 systemd[1]: Starting User Manager for UID 1001...
+Jun  1 00:59:38 server-prod-01 systemd[1]: Finished Logrotate Service.
+Jun  1 01:00:31 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 01:01:54 server-prod-01 logrotate[15864]: syslog rotated successfully.
+Jun  1 01:03:18 server-prod-01 dhclient[6063]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 01:03:45 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 01:04:04 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 01:04:49 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 01:05:11 server-prod-01 dhclient[7219]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 01:06:24 server-prod-01 systemd[1]: Starting User Manager for UID 1001...
+Jun  1 01:06:45 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 01:07:08 server-prod-01 nginx: 192.168.1.100 - - [01:07:08 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 01:08:05 server-prod-01 logrotate[1092]: auth.log rotated successfully.
+Jun  1 01:08:38 server-prod-01 logrotate[9213]: auth.log rotated successfully.
+Jun  1 01:09:07 server-prod-01 CRON[1486]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 01:09:52 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 01:10:13 server-prod-01 logrotate[14794]: auth.log rotated successfully.
+Jun  1 01:10:36 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 01:11:48 server-prod-01 nginx: 192.168.1.100 - - [01:11:48 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 01:13:01 server-prod-01 CRON[16695]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 01:14:10 server-prod-01 systemd[1]: Created slice User Slice of UID 1001.
+Jun  1 01:14:35 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 01:15:06 server-prod-01 systemd-logind[850]: Removed session 503.
+Jun  1 01:16:28 server-prod-01 systemd-logind[850]: Session 503 logged out. Destroying.
+Jun  1 01:16:55 server-prod-01 systemd[1]: Stopped User Manager for UID 1001.
+Jun  1 01:18:07 server-prod-01 sshd[12106]: Received disconnect from 192.168.1.50 port 64012:11: user request
+Jun  1 01:19:13 server-prod-01 dhclient[4115]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 01:20:22 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 01:20:56 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 01:21:22 server-prod-01 dhclient[13210]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 01:22:48 server-prod-01 CRON[5005]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 01:23:48 server-prod-01 dhclient[2685]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 01:24:42 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 01:25:16 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 01:26:42 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 01:27:51 server-prod-01 nginx: 192.168.1.100 - - [01:27:51 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 01:28:29 server-prod-01 systemd-logind[850]: Removed session 503.
+Jun  1 01:29:28 server-prod-01 CRON[5694]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 01:29:51 server-prod-01 logrotate[2004]: auth.log rotated successfully.
+Jun  1 01:31:13 server-prod-01 sshd[14757]: Received disconnect from 192.168.1.50 port 64017:11: user request
+Jun  1 01:32:11 server-prod-01 logrotate[11211]: syslog rotated successfully.
+Jun  1 01:33:38 server-prod-01 systemd[1]: Removed slice User Slice of UID 1001.
+Jun  1 01:34:13 server-prod-01 CRON[9916]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 01:35:22 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 01:36:11 server-prod-01 sshd[4729]: Disconnected from user admin_user 192.168.1.50 port 60462
+Jun  1 01:37:21 server-prod-01 systemd[1]: Started System Logging Service.
+Jun  1 01:37:41 server-prod-01 sshd[2795]: Received disconnect from 192.168.1.50 port 49403:11: user request
+Jun  1 01:38:22 server-prod-01 systemd-logind[850]: New session 503 of user admin_user.
+Jun  1 01:39:14 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 01:40:24 server-prod-01 logrotate[13458]: alert logs rotated successfully.
+Jun  1 01:41:43 server-prod-01 nginx: 192.168.1.102 - - [01:41:43 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 01:42:03 server-prod-01 dhclient[16065]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 01:42:58 server-prod-01 dhclient[14252]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 01:43:50 server-prod-01 systemd[1]: Started Periodic Command Scheduler.
+Jun  1 01:44:26 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 01:45:36 server-prod-01 systemd[1]: Starting System Logging Service...
+Jun  1 01:46:58 server-prod-01 systemd[1]: Started Periodic Command Scheduler.
+Jun  1 01:47:41 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 01:49:03 server-prod-01 nginx: 192.168.1.100 - - [01:49:03 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 01:49:36 server-prod-01 sshd[5798]: Accepted publickey for admin_user from 192.168.1.50 port 57539 ssh2: RSA SHA256:mQf6abc789xyz...
+Jun  1 01:50:16 server-prod-01 logrotate[6009]: auth.log rotated successfully.
+Jun  1 01:50:53 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 01:51:48 server-prod-01 logrotate[3237]: syslog rotated successfully.
+Jun  1 01:52:59 server-prod-01 systemd-logind[850]: Session 504 logged out. Destroying.
+Jun  1 01:54:18 server-prod-01 systemd[1]: Started System Logging Service.
+Jun  1 01:54:37 server-prod-01 CRON[10406]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 01:55:03 server-prod-01 nginx: 192.168.1.102 - - [01:55:03 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 01:56:15 server-prod-01 sshd[16585]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 01:56:37 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 01:57:56 server-prod-01 logrotate[9118]: alert logs rotated successfully.
+Jun  1 01:59:07 server-prod-01 nginx: 192.168.1.100 - - [01:59:07 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 01:59:58 server-prod-01 dhclient[12087]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 02:00:55 server-prod-01 systemd[1]: Starting Periodic Command Scheduler...
+Jun  1 02:01:46 server-prod-01 systemd-logind[850]: Removed session 504.
+Jun  1 02:02:11 server-prod-01 logrotate[11165]: syslog rotated successfully.
+Jun  1 02:02:42 server-prod-01 systemd[1]: Started System Logging Service.
+Jun  1 02:03:13 server-prod-01 nginx: 192.168.1.100 - - [02:03:13 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 02:03:30 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 02:04:28 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 02:05:02 server-prod-01 systemd[1]: Started System Logging Service.
+Jun  1 02:06:00 server-prod-01 logrotate[13344]: auth.log rotated successfully.
+Jun  1 02:06:35 server-prod-01 logrotate[6424]: auth.log rotated successfully.
+Jun  1 02:06:55 server-prod-01 dhclient[8783]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 02:07:46 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 02:09:01 server-prod-01 sshd[15437]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 02:09:52 server-prod-01 dhclient[14718]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 02:10:32 server-prod-01 logrotate[2709]: syslog rotated successfully.
+Jun  1 02:11:34 server-prod-01 nginx: 192.168.1.100 - - [02:11:34 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 02:12:25 server-prod-01 systemd[1]: Stopping User Manager for UID 1001...
+Jun  1 02:13:37 server-prod-01 nginx: 192.168.1.100 - - [02:13:37 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 02:14:20 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 02:14:41 server-prod-01 dhclient[13253]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 02:15:45 server-prod-01 systemd[1]: Starting Periodic Command Scheduler...
+Jun  1 02:16:40 server-prod-01 systemd[1]: Stopped User Manager for UID 1001.
+Jun  1 02:17:12 server-prod-01 CRON[16481]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 02:18:27 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 02:18:44 server-prod-01 systemd-logind[850]: New session 504 of user admin_user.
+Jun  1 02:19:13 server-prod-01 systemd-logind[850]: New session 505 of user admin_user.
+Jun  1 02:19:34 server-prod-01 sshd[15978]: Received disconnect from 192.168.1.50 port 51210:11: user request
+Jun  1 02:20:03 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 02:20:36 server-prod-01 systemd-logind[850]: Session 506 logged out. Destroying.
+Jun  1 02:21:21 server-prod-01 dhclient[3805]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 02:21:44 server-prod-01 nginx: 192.168.1.100 - - [02:21:44 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 02:22:04 server-prod-01 dhclient[9311]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 02:23:04 server-prod-01 systemd[1]: Starting Periodic Command Scheduler...
+Jun  1 02:24:33 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 02:25:57 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 02:27:13 server-prod-01 logrotate[3067]: alert logs rotated successfully.
+Jun  1 02:27:32 server-prod-01 systemd-logind[850]: New session 506 of user admin_user.
+Jun  1 02:27:52 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 02:29:16 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 02:30:07 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 02:30:37 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 02:31:41 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 02:32:43 server-prod-01 nginx: 192.168.1.102 - - [02:32:43 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 02:33:08 server-prod-01 dhclient[6913]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 02:34:04 server-prod-01 systemd[1]: logrotate.service: Succeeded.
+Jun  1 02:34:58 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 02:36:09 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 02:37:19 server-prod-01 systemd-logind[850]: Removed session 507.
+Jun  1 02:38:25 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 02:38:58 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 02:39:43 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 02:40:17 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 02:40:41 server-prod-01 logrotate[13024]: auth.log rotated successfully.
+Jun  1 02:41:36 server-prod-01 systemd-logind[850]: New session 507 of user admin_user.
+Jun  1 02:42:14 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 02:43:02 server-prod-01 systemd-logind[850]: Removed session 508.
+Jun  1 02:43:53 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 02:44:17 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 02:45:12 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 02:46:05 server-prod-01 logrotate[6704]: auth.log rotated successfully.
+Jun  1 02:47:25 server-prod-01 sshd[7585]: Accepted publickey for admin_user from 192.168.1.50 port 53702 ssh2: RSA SHA256:mQf6abc789xyz...
+Jun  1 02:48:10 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 02:49:24 server-prod-01 nginx: 192.168.1.100 - - [02:49:24 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 02:50:18 server-prod-01 dhclient[16684]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 02:51:25 server-prod-01 systemd[1]: Finished Logrotate Service.
+Jun  1 02:52:37 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 02:53:08 server-prod-01 nginx: 192.168.1.100 - - [02:53:08 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 02:54:27 server-prod-01 CRON[17977]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 02:55:20 server-prod-01 logrotate[11572]: alert logs rotated successfully.
+Jun  1 02:56:19 server-prod-01 nginx: 192.168.1.102 - - [02:56:19 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 02:56:59 server-prod-01 nginx: 192.168.1.102 - - [02:56:59 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 02:58:22 server-prod-01 systemd[1]: Starting User Runtime Directory /run/user/1001...
+Jun  1 02:58:58 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 02:59:23 server-prod-01 CRON[7907]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 02:59:41 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 03:00:57 server-prod-01 sshd[10746]: Received disconnect from 192.168.1.50 port 64013:11: user request
+Jun  1 03:01:21 server-prod-01 CRON[15404]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 03:02:37 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 03:03:32 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 03:04:03 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 03:04:48 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 03:05:34 server-prod-01 logrotate[2658]: alert logs rotated successfully.
+Jun  1 03:06:38 server-prod-01 dhclient[6233]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 03:08:06 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 03:09:26 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 03:09:43 server-prod-01 systemd[1]: Started Periodic Command Scheduler.
+Jun  1 03:10:28 server-prod-01 sshd[12563]: Disconnected from user admin_user 192.168.1.50 port 50746
+Jun  1 03:10:49 server-prod-01 systemd-logind[850]: Session 508 logged out. Destroying.
+Jun  1 03:12:12 server-prod-01 CRON[15120]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 03:13:00 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 03:14:06 server-prod-01 CRON[12879]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 03:14:30 server-prod-01 dhclient[15757]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 03:15:00 server-prod-01 logrotate[13907]: alert logs rotated successfully.
+Jun  1 03:15:58 server-prod-01 nginx: 192.168.1.102 - - [03:15:58 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 03:17:18 server-prod-01 dhclient[2319]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 03:17:37 server-prod-01 logrotate[11913]: auth.log rotated successfully.
+Jun  1 03:18:58 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 03:19:54 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 03:21:24 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 03:22:51 server-prod-01 systemd-logind[850]: Session 508 logged out. Destroying.
+Jun  1 03:23:48 server-prod-01 systemd[1]: Started Periodic Command Scheduler.
+Jun  1 03:25:03 server-prod-01 systemd-logind[850]: Removed session 508.
+Jun  1 03:26:32 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 03:27:18 server-prod-01 CRON[7251]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 03:28:29 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 03:29:10 server-prod-01 dhclient[16453]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 03:29:42 server-prod-01 nginx: 192.168.1.100 - - [03:29:42 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 03:31:04 server-prod-01 dhclient[6674]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 03:32:27 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 03:33:43 server-prod-01 sshd[10142]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 03:34:26 server-prod-01 systemd-logind[850]: Session 508 logged out. Destroying.
+Jun  1 03:35:21 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 03:35:51 server-prod-01 nginx: 192.168.1.102 - - [03:35:51 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 03:36:24 server-prod-01 systemd-logind[850]: New session 508 of user admin_user.
+Jun  1 03:37:23 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 03:38:05 server-prod-01 sshd[9884]: Disconnected from user admin_user 192.168.1.50 port 58052
+Jun  1 03:38:37 server-prod-01 systemd[1]: Started User Runtime Directory /run/user/1001.
+Jun  1 03:38:58 server-prod-01 nginx: 192.168.1.100 - - [03:38:58 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 03:39:25 server-prod-01 dhclient[16479]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 03:39:57 server-prod-01 CRON[14333]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 03:41:13 server-prod-01 sshd[11524]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 03:41:35 server-prod-01 systemd[1]: Starting User Manager for UID 1001...
+Jun  1 03:42:12 server-prod-01 dhclient[2190]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 03:43:30 server-prod-01 logrotate[10485]: auth.log rotated successfully.
+Jun  1 03:43:46 server-prod-01 systemd-logind[850]: Removed session 509.
+Jun  1 03:44:37 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 03:45:56 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 03:46:53 server-prod-01 logrotate[16037]: auth.log rotated successfully.
+Jun  1 03:47:31 server-prod-01 CRON[10667]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 03:48:08 server-prod-01 dhclient[17884]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 03:48:34 server-prod-01 dhclient[4125]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 03:49:06 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 03:49:54 server-prod-01 dhclient[15638]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 03:50:51 server-prod-01 systemd-logind[850]: Removed session 509.
+Jun  1 03:51:52 server-prod-01 sshd[4873]: Accepted publickey for admin_user from 192.168.1.50 port 64402 ssh2: RSA SHA256:mQf6abc789xyz...
+Jun  1 03:52:46 server-prod-01 logrotate[17466]: syslog rotated successfully.
+Jun  1 03:53:16 server-prod-01 systemd-logind[850]: Session 509 logged out. Destroying.
+Jun  1 03:53:48 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 03:54:56 server-prod-01 nginx: 192.168.1.102 - - [03:54:56 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 03:55:21 server-prod-01 nginx: 192.168.1.102 - - [03:55:21 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 03:56:48 server-prod-01 systemd[1]: Starting Logrotate Service...
+Jun  1 03:58:16 server-prod-01 nginx: 192.168.1.100 - - [03:58:16 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 03:59:37 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 04:00:03 server-prod-01 nginx: 192.168.1.102 - - [04:00:03 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 04:00:34 server-prod-01 nginx: 192.168.1.102 - - [04:00:34 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 04:02:00 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 04:03:05 server-prod-01 systemd-logind[850]: New session 509 of user admin_user.
+Jun  1 04:03:25 server-prod-01 dhclient[3089]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 04:03:48 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 04:04:26 server-prod-01 logrotate[14774]: auth.log rotated successfully.
+Jun  1 04:05:29 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 04:06:53 server-prod-01 logrotate[12395]: auth.log rotated successfully.
+Jun  1 04:07:30 server-prod-01 nginx: 192.168.1.102 - - [04:07:30 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 04:07:45 server-prod-01 CRON[16171]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 04:09:08 server-prod-01 dhclient[9110]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 04:10:07 server-prod-01 logrotate[7176]: syslog rotated successfully.
+Jun  1 04:10:26 server-prod-01 dhclient[1512]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 04:11:07 server-prod-01 systemd[1]: logrotate.service: Succeeded.
+Jun  1 04:11:28 server-prod-01 sshd[14181]: Accepted publickey for admin_user from 192.168.1.50 port 63535 ssh2: RSA SHA256:mQf6abc789xyz...
+Jun  1 04:12:12 server-prod-01 nginx: 192.168.1.100 - - [04:12:12 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 04:13:31 server-prod-01 systemd-logind[850]: New session 510 of user admin_user.
+Jun  1 04:14:16 server-prod-01 systemd-logind[850]: New session 511 of user admin_user.
+Jun  1 04:15:09 server-prod-01 systemd-logind[850]: New session 512 of user admin_user.
+Jun  1 04:16:35 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 04:17:57 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 04:18:31 server-prod-01 systemd-logind[850]: Session 513 logged out. Destroying.
+Jun  1 04:19:16 server-prod-01 sshd[5730]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 04:19:38 server-prod-01 nginx: 192.168.1.102 - - [04:19:38 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 04:20:42 server-prod-01 sshd[7662]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 04:21:07 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 04:21:28 server-prod-01 systemd-logind[850]: Session 513 logged out. Destroying.
+Jun  1 04:22:07 server-prod-01 nginx: 192.168.1.100 - - [04:22:07 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 04:23:04 server-prod-01 systemd-logind[850]: New session 513 of user admin_user.
+Jun  1 04:23:34 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 04:24:19 server-prod-01 nginx: 192.168.1.102 - - [04:24:19 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 04:25:33 server-prod-01 nginx: 192.168.1.102 - - [04:25:33 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 04:26:34 server-prod-01 nginx: 192.168.1.102 - - [04:26:34 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 04:27:49 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 04:28:56 server-prod-01 CRON[5781]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 04:29:44 server-prod-01 nginx: 192.168.1.102 - - [04:29:44 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 04:30:24 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 04:31:42 server-prod-01 nginx: 192.168.1.102 - - [04:31:42 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 04:32:59 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 04:33:31 server-prod-01 nginx: 192.168.1.102 - - [04:33:31 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 04:34:53 server-prod-01 CRON[2589]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 04:36:00 server-prod-01 logrotate[8583]: auth.log rotated successfully.
+Jun  1 04:36:34 server-prod-01 CRON[17571]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 04:37:36 server-prod-01 CRON[16986]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 04:37:51 server-prod-01 nginx: 192.168.1.102 - - [04:37:51 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 04:39:13 server-prod-01 systemd-logind[850]: Removed session 514.
+Jun  1 04:40:32 server-prod-01 dhclient[4506]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 04:41:54 server-prod-01 logrotate[7289]: alert logs rotated successfully.
+Jun  1 04:42:54 server-prod-01 systemd-logind[850]: Session 514 logged out. Destroying.
+Jun  1 04:44:00 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 04:44:53 server-prod-01 systemd[1]: Starting User Manager for UID 1001...
+Jun  1 04:45:59 server-prod-01 dhclient[16597]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 04:46:15 server-prod-01 logrotate[17379]: alert logs rotated successfully.
+Jun  1 04:47:12 server-prod-01 systemd[1]: Removed slice User Slice of UID 1001.
+Jun  1 04:47:54 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 04:48:44 server-prod-01 nginx: 192.168.1.100 - - [04:48:44 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 04:49:01 server-prod-01 sshd[5724]: Disconnected from user admin_user 192.168.1.50 port 62203
+Jun  1 04:49:25 server-prod-01 systemd-logind[850]: New session 514 of user admin_user.
+Jun  1 04:50:49 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 04:52:08 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 04:52:52 server-prod-01 systemd[1]: Starting Periodic Command Scheduler...
+Jun  1 04:53:10 server-prod-01 systemd-logind[850]: Session 515 logged out. Destroying.
+Jun  1 04:54:10 server-prod-01 nginx: 192.168.1.102 - - [04:54:10 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 04:55:39 server-prod-01 dhclient[10678]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 04:56:03 server-prod-01 systemd[1]: Started System Logging Service.
+Jun  1 04:56:37 server-prod-01 dhclient[12819]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 04:57:03 server-prod-01 CRON[15573]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 04:57:52 server-prod-01 systemd[1]: Finished Logrotate Service.
+Jun  1 04:59:02 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 04:59:30 server-prod-01 CRON[12597]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 05:00:26 server-prod-01 dhclient[10563]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 05:01:30 server-prod-01 systemd[1]: Started User Manager for UID 1001.
+Jun  1 05:02:33 server-prod-01 logrotate[9811]: alert logs rotated successfully.
+Jun  1 05:03:22 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 05:04:32 server-prod-01 systemd-logind[850]: Session 515 logged out. Destroying.
+Jun  1 05:04:56 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 05:05:36 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 05:05:51 server-prod-01 dhclient[13448]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 05:07:02 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 05:07:58 server-prod-01 sshd[11295]: Received disconnect from 192.168.1.50 port 54972:11: user request
+Jun  1 05:09:03 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 05:09:59 server-prod-01 dhclient[13875]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 05:10:28 server-prod-01 sshd[6895]: Disconnected from user admin_user 192.168.1.50 port 50033
+Jun  1 05:11:42 server-prod-01 sshd[10546]: Received disconnect from 192.168.1.50 port 51418:11: user request
+Jun  1 05:12:49 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 05:13:36 server-prod-01 logrotate[14865]: auth.log rotated successfully.
+Jun  1 05:14:00 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 05:15:23 server-prod-01 nginx: 192.168.1.102 - - [05:15:23 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 05:16:46 server-prod-01 systemd[1]: logrotate.service: Succeeded.
+Jun  1 05:17:22 server-prod-01 CRON[11865]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 05:17:50 server-prod-01 CRON[9478]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 05:19:10 server-prod-01 nginx: 192.168.1.100 - - [05:19:10 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 05:20:15 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 05:21:14 server-prod-01 CRON[4425]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 05:22:22 server-prod-01 systemd[1]: logrotate.service: Succeeded.
+Jun  1 05:23:16 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 05:24:15 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 05:25:10 server-prod-01 systemd[1]: Started System Logging Service.
+Jun  1 05:25:27 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 05:26:13 server-prod-01 nginx: 192.168.1.100 - - [05:26:13 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 05:27:39 server-prod-01 dhclient[8597]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 05:28:17 server-prod-01 logrotate[15160]: auth.log rotated successfully.
+Jun  1 05:28:35 server-prod-01 sshd[15075]: Received disconnect from 192.168.1.50 port 61893:11: user request
+Jun  1 05:28:50 server-prod-01 sshd[10120]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 05:30:18 server-prod-01 systemd[1]: Stopping User Manager for UID 1001...
+Jun  1 05:31:14 server-prod-01 sshd[4734]: Received disconnect from 192.168.1.50 port 57748:11: user request
+Jun  1 05:32:31 server-prod-01 nginx: 192.168.1.102 - - [05:32:31 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 05:34:01 server-prod-01 systemd[1]: Starting Periodic Command Scheduler...
+Jun  1 05:34:38 server-prod-01 systemd-logind[850]: Removed session 515.
+Jun  1 05:35:33 server-prod-01 systemd[1]: Starting System Logging Service...
+Jun  1 05:36:11 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 05:37:19 server-prod-01 logrotate[13573]: auth.log rotated successfully.
+Jun  1 05:37:57 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 05:39:14 server-prod-01 systemd-logind[850]: New session 515 of user admin_user.
+Jun  1 05:40:26 server-prod-01 CRON[1314]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 05:40:58 server-prod-01 sshd[17562]: Received disconnect from 192.168.1.50 port 65371:11: user request
+Jun  1 05:42:05 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 05:42:41 server-prod-01 systemd[1]: Started User Runtime Directory /run/user/1001.
+Jun  1 05:43:33 server-prod-01 CRON[8367]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 05:44:09 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 05:45:37 server-prod-01 systemd[1]: Started System Logging Service.
+Jun  1 05:46:48 server-prod-01 nginx: 192.168.1.100 - - [05:46:48 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 05:47:34 server-prod-01 systemd-logind[850]: New session 516 of user admin_user.
+Jun  1 05:48:33 server-prod-01 systemd[1]: Created slice User Slice of UID 1001.
+Jun  1 05:49:14 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 05:49:46 server-prod-01 sshd[2945]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 05:51:09 server-prod-01 systemd-logind[850]: Removed session 517.
+Jun  1 05:52:01 server-prod-01 systemd-logind[850]: Removed session 517.
+Jun  1 05:52:33 server-prod-01 dhclient[10087]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 05:53:04 server-prod-01 sshd[11554]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 05:54:09 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 05:55:12 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 05:56:32 server-prod-01 systemd-logind[850]: Removed session 517.
+Jun  1 05:57:49 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 05:59:02 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 06:00:11 server-prod-01 sshd[9799]: Received disconnect from 192.168.1.50 port 59731:11: user request
+Jun  1 06:01:02 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 06:02:00 server-prod-01 CRON[4262]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 06:02:17 server-prod-01 systemd[1]: Removed slice User Slice of UID 1001.
+Jun  1 06:03:30 server-prod-01 CRON[7629]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 06:04:23 server-prod-01 logrotate[4058]: syslog rotated successfully.
+Jun  1 06:05:10 server-prod-01 systemd[1]: Starting Periodic Command Scheduler...
+Jun  1 06:06:15 server-prod-01 systemd-logind[850]: Removed session 517.
+Jun  1 06:06:41 server-prod-01 systemd[1]: Starting Logrotate Service...
+Jun  1 06:07:05 server-prod-01 logrotate[8411]: auth.log rotated successfully.
+Jun  1 06:07:21 server-prod-01 CRON[4951]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 06:07:52 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 06:08:18 server-prod-01 systemd[1]: logrotate.service: Succeeded.
+Jun  1 06:09:11 server-prod-01 logrotate[5362]: syslog rotated successfully.
+Jun  1 06:09:34 server-prod-01 nginx: 192.168.1.100 - - [06:09:34 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 06:10:33 server-prod-01 sshd[14490]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 06:11:15 server-prod-01 systemd[1]: Removed slice User Slice of UID 1001.
+Jun  1 06:11:45 server-prod-01 dhclient[15070]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 06:12:17 server-prod-01 sshd[3760]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 06:13:42 server-prod-01 systemd-logind[850]: Removed session 517.
+Jun  1 06:14:23 server-prod-01 nginx: 192.168.1.100 - - [06:14:23 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 06:14:44 server-prod-01 sshd[13644]: Received disconnect from 192.168.1.50 port 52846:11: user request
+Jun  1 06:15:29 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 06:16:30 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 06:17:31 server-prod-01 nginx: 192.168.1.100 - - [06:17:31 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 06:17:48 server-prod-01 systemd[1]: Starting Logrotate Service...
+Jun  1 06:18:08 server-prod-01 CRON[17600]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 06:19:27 server-prod-01 dhclient[14181]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 06:20:50 server-prod-01 nginx: 192.168.1.100 - - [06:20:50 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 06:21:44 server-prod-01 systemd[1]: Starting User Runtime Directory /run/user/1001...
+Jun  1 06:23:07 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 06:24:17 server-prod-01 sshd[9011]: Accepted publickey for admin_user from 192.168.1.50 port 51977 ssh2: RSA SHA256:mQf6abc789xyz...
+Jun  1 06:25:27 server-prod-01 systemd[1]: Created slice User Slice of UID 1001.
+Jun  1 06:26:04 server-prod-01 systemd[1]: Starting Logrotate Service...
+Jun  1 06:26:39 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 06:27:15 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 06:27:33 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 06:28:21 server-prod-01 systemd[1]: Created slice User Slice of UID 1001.
+Jun  1 06:28:43 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 06:29:18 server-prod-01 systemd-logind[850]: New session 517 of user admin_user.
+Jun  1 06:30:38 server-prod-01 CRON[1402]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 06:30:58 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 06:31:35 server-prod-01 CRON[8356]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 06:32:21 server-prod-01 dhclient[11483]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 06:32:45 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 06:33:22 server-prod-01 sshd[2504]: Disconnected from user admin_user 192.168.1.50 port 62289
+Jun  1 06:33:45 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 06:34:11 server-prod-01 nginx: 192.168.1.102 - - [06:34:11 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 06:34:51 server-prod-01 systemd-logind[850]: Removed session 518.
+Jun  1 06:36:05 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 06:37:29 server-prod-01 sshd[1208]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 06:37:47 server-prod-01 sshd[12351]: Disconnected from user admin_user 192.168.1.50 port 49466
+Jun  1 06:38:44 server-prod-01 CRON[11076]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 06:39:25 server-prod-01 nginx: 192.168.1.100 - - [06:39:25 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 06:39:47 server-prod-01 logrotate[10169]: auth.log rotated successfully.
+Jun  1 06:40:07 server-prod-01 sshd[14535]: Disconnected from user admin_user 192.168.1.50 port 61357
+Jun  1 06:41:20 server-prod-01 systemd[1]: Started User Runtime Directory /run/user/1001.
+Jun  1 06:42:25 server-prod-01 systemd[1]: Started User Runtime Directory /run/user/1001.
+Jun  1 06:42:56 server-prod-01 sshd[9552]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 06:44:01 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 06:44:45 server-prod-01 systemd[1]: Starting System Logging Service...
+Jun  1 06:45:19 server-prod-01 systemd[1]: Finished Logrotate Service.
+Jun  1 06:46:14 server-prod-01 dhclient[12740]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 06:47:26 server-prod-01 systemd-logind[850]: Session 518 logged out. Destroying.
+Jun  1 06:47:52 server-prod-01 logrotate[10968]: auth.log rotated successfully.
+Jun  1 06:48:34 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 06:49:34 server-prod-01 dhclient[2604]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 06:50:22 server-prod-01 logrotate[14251]: alert logs rotated successfully.
+Jun  1 06:51:48 server-prod-01 nginx: 192.168.1.100 - - [06:51:48 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 06:52:16 server-prod-01 logrotate[1391]: alert logs rotated successfully.
+Jun  1 06:52:59 server-prod-01 logrotate[14126]: alert logs rotated successfully.
+Jun  1 06:53:24 server-prod-01 systemd-logind[850]: New session 518 of user admin_user.
+Jun  1 06:54:04 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 06:54:34 server-prod-01 CRON[2659]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 06:56:02 server-prod-01 dhclient[13943]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 06:56:20 server-prod-01 dhclient[14980]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 06:57:20 server-prod-01 sshd[10010]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 06:58:32 server-prod-01 logrotate[9053]: alert logs rotated successfully.
+Jun  1 06:59:50 server-prod-01 dhclient[16696]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 07:00:16 server-prod-01 systemd-logind[850]: Session 519 logged out. Destroying.
+Jun  1 07:00:56 server-prod-01 nginx: 192.168.1.100 - - [07:00:56 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 07:01:56 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 07:03:23 server-prod-01 nginx: 192.168.1.102 - - [07:03:23 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 07:04:01 server-prod-01 CRON[8176]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 07:04:51 server-prod-01 CRON[12712]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 07:05:26 server-prod-01 systemd[1]: Starting System Logging Service...
+Jun  1 07:06:49 server-prod-01 CRON[13727]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 07:07:26 server-prod-01 logrotate[11420]: alert logs rotated successfully.
+Jun  1 07:08:56 server-prod-01 CRON[5656]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 07:10:14 server-prod-01 nginx: 192.168.1.102 - - [07:10:14 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 07:10:33 server-prod-01 systemd[1]: Starting Logrotate Service...
+Jun  1 07:10:50 server-prod-01 nginx: 192.168.1.102 - - [07:10:50 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 07:11:30 server-prod-01 logrotate[6815]: syslog rotated successfully.
+Jun  1 07:11:52 server-prod-01 CRON[5641]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 07:13:14 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 07:14:44 server-prod-01 systemd[1]: Starting Periodic Command Scheduler...
+Jun  1 07:15:16 server-prod-01 logrotate[15315]: auth.log rotated successfully.
+Jun  1 07:16:11 server-prod-01 logrotate[12692]: auth.log rotated successfully.
+Jun  1 07:17:41 server-prod-01 logrotate[11053]: syslog rotated successfully.
+Jun  1 07:18:12 server-prod-01 logrotate[1058]: auth.log rotated successfully.
+Jun  1 07:19:39 server-prod-01 CRON[11427]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 07:21:06 server-prod-01 systemd[1]: Removed slice User Slice of UID 1001.
+Jun  1 07:22:03 server-prod-01 systemd[1]: Starting System Logging Service...
+Jun  1 07:22:39 server-prod-01 systemd[1]: Stopped User Manager for UID 1001.
+Jun  1 07:22:55 server-prod-01 systemd-logind[850]: New session 519 of user admin_user.
+Jun  1 07:23:54 server-prod-01 systemd-logind[850]: New session 520 of user admin_user.
+Jun  1 07:24:58 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 07:26:05 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 07:26:32 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 07:27:44 server-prod-01 systemd[1]: Stopping User Manager for UID 1001...
+Jun  1 07:28:01 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 07:28:59 server-prod-01 logrotate[6272]: syslog rotated successfully.
+Jun  1 07:30:24 server-prod-01 systemd[1]: Starting Periodic Command Scheduler...
+Jun  1 07:31:34 server-prod-01 logrotate[15227]: auth.log rotated successfully.
+Jun  1 07:31:55 server-prod-01 systemd[1]: Starting Periodic Command Scheduler...
+Jun  1 07:33:02 server-prod-01 nginx: 192.168.1.102 - - [07:33:02 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 07:33:47 server-prod-01 systemd[1]: Starting Logrotate Service...
+Jun  1 07:34:21 server-prod-01 CRON[1125]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 07:34:47 server-prod-01 systemd-logind[850]: Removed session 521.
+Jun  1 07:35:14 server-prod-01 CRON[6597]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 07:35:39 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 07:36:54 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 07:38:18 server-prod-01 dhclient[13157]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 07:39:20 server-prod-01 logrotate[2462]: syslog rotated successfully.
+Jun  1 07:40:31 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 07:41:58 server-prod-01 CRON[4168]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 07:42:57 server-prod-01 nginx: 192.168.1.102 - - [07:42:57 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 07:44:01 server-prod-01 nginx: 192.168.1.102 - - [07:44:01 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 07:45:16 server-prod-01 systemd-logind[850]: New session 521 of user admin_user.
+Jun  1 07:46:35 server-prod-01 nginx: 192.168.1.100 - - [07:46:35 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 07:47:12 server-prod-01 logrotate[7315]: alert logs rotated successfully.
+Jun  1 07:47:32 server-prod-01 dhclient[15266]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 07:48:05 server-prod-01 systemd-logind[850]: Session 522 logged out. Destroying.
+Jun  1 07:49:09 server-prod-01 nginx: 192.168.1.102 - - [07:49:09 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 07:50:30 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 07:51:38 server-prod-01 logrotate[4283]: alert logs rotated successfully.
+Jun  1 07:53:05 server-prod-01 systemd[1]: Stopping User Manager for UID 1001...
+Jun  1 07:54:12 server-prod-01 systemd-logind[850]: Session 522 logged out. Destroying.
+Jun  1 07:54:31 server-prod-01 logrotate[14204]: syslog rotated successfully.
+Jun  1 07:55:37 server-prod-01 CRON[11862]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 07:55:58 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 07:56:56 server-prod-01 systemd-logind[850]: Session 522 logged out. Destroying.
+Jun  1 07:57:23 server-prod-01 sshd[10846]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 07:58:19 server-prod-01 systemd-logind[850]: Removed session 522.
+Jun  1 07:58:58 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 08:00:19 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 08:00:42 server-prod-01 systemd-logind[850]: Removed session 522.
+Jun  1 08:01:14 server-prod-01 nginx: 192.168.1.100 - - [08:01:14 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 08:01:54 server-prod-01 CRON[2083]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 08:02:15 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 08:03:17 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 08:03:35 server-prod-01 sshd[17016]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 08:04:12 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 08:04:47 server-prod-01 systemd-logind[850]: Removed session 522.
+Jun  1 08:05:05 server-prod-01 dhclient[6338]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 08:05:48 server-prod-01 sshd[9817]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 08:07:08 server-prod-01 CRON[16535]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 08:07:45 server-prod-01 CRON[9270]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 08:08:35 server-prod-01 dhclient[12426]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 08:09:22 server-prod-01 sshd[10900]: Received disconnect from 192.168.1.50 port 62165:11: user request
+Jun  1 08:10:51 server-prod-01 systemd[1]: Starting Logrotate Service...
+Jun  1 08:12:17 server-prod-01 systemd-logind[850]: Session 522 logged out. Destroying.
+Jun  1 08:12:40 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 08:13:28 server-prod-01 systemd-logind[850]: New session 522 of user admin_user.
+Jun  1 08:13:50 server-prod-01 dhclient[11472]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 08:14:08 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 08:15:14 server-prod-01 dhclient[2157]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 08:16:12 server-prod-01 sshd[16588]: Disconnected from user admin_user 192.168.1.50 port 60899
+Jun  1 08:17:31 server-prod-01 systemd-logind[850]: New session 523 of user admin_user.
+Jun  1 08:17:58 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 08:18:55 server-prod-01 systemd[1]: Starting System Logging Service...
+Jun  1 08:19:49 server-prod-01 dhclient[13179]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 08:21:18 server-prod-01 systemd-logind[850]: Session 524 logged out. Destroying.
+Jun  1 08:21:39 server-prod-01 systemd[1]: Created slice User Slice of UID 1001.
+Jun  1 08:22:42 server-prod-01 nginx: 192.168.1.102 - - [08:22:42 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 08:23:16 server-prod-01 logrotate[12228]: alert logs rotated successfully.
+Jun  1 08:24:43 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 08:25:08 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 08:25:30 server-prod-01 CRON[9962]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 08:26:06 server-prod-01 logrotate[3884]: syslog rotated successfully.
+Jun  1 08:27:16 server-prod-01 dhclient[15058]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 08:28:20 server-prod-01 CRON[7534]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 08:28:36 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 08:28:51 server-prod-01 sshd[12283]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 08:29:22 server-prod-01 systemd[1]: Started Periodic Command Scheduler.
+Jun  1 08:29:58 server-prod-01 systemd[1]: Stopped User Manager for UID 1001.
+Jun  1 08:30:50 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 08:31:22 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 08:31:58 server-prod-01 dhclient[8484]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 08:32:29 server-prod-01 sshd[17535]: Accepted publickey for admin_user from 192.168.1.50 port 54689 ssh2: RSA SHA256:mQf6abc789xyz...
+Jun  1 08:32:59 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 08:33:46 server-prod-01 nginx: 192.168.1.100 - - [08:33:46 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 08:34:03 server-prod-01 CRON[14656]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 08:35:06 server-prod-01 systemd[1]: Starting User Runtime Directory /run/user/1001...
+Jun  1 08:35:40 server-prod-01 sshd[10866]: Accepted publickey for admin_user from 192.168.1.50 port 62943 ssh2: RSA SHA256:mQf6abc789xyz...
+Jun  1 08:36:07 server-prod-01 nginx: 192.168.1.102 - - [08:36:07 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 08:36:35 server-prod-01 nginx: 192.168.1.100 - - [08:36:35 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 08:37:03 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 08:38:24 server-prod-01 sshd[14426]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 08:38:59 server-prod-01 CRON[7805]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 08:39:56 server-prod-01 sshd[1417]: Accepted publickey for admin_user from 192.168.1.50 port 52068 ssh2: RSA SHA256:mQf6abc789xyz...
+Jun  1 08:40:25 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 08:40:52 server-prod-01 systemd-logind[850]: Removed session 524.
+Jun  1 08:41:44 server-prod-01 systemd-logind[850]: Session 524 logged out. Destroying.
+Jun  1 08:42:21 server-prod-01 CRON[12803]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 08:43:30 server-prod-01 systemd[1]: logrotate.service: Succeeded.
+Jun  1 08:44:02 server-prod-01 logrotate[12715]: syslog rotated successfully.
+Jun  1 08:44:51 server-prod-01 systemd[1]: Starting Periodic Command Scheduler...
+Jun  1 08:45:20 server-prod-01 dhclient[15959]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 08:46:24 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 08:46:55 server-prod-01 CRON[4398]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 08:48:25 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 08:49:28 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 08:50:44 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 08:51:04 server-prod-01 systemd[1]: Started System Logging Service.
+Jun  1 08:52:26 server-prod-01 sshd[4120]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 08:53:12 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 08:54:38 server-prod-01 CRON[6142]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 08:55:56 server-prod-01 logrotate[17110]: alert logs rotated successfully.
+Jun  1 08:56:41 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 08:58:06 server-prod-01 dhclient[8700]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 08:59:19 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 09:00:37 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 09:00:54 server-prod-01 systemd[1]: Started Periodic Command Scheduler.
+Jun  1 09:02:20 server-prod-01 nginx: 192.168.1.100 - - [09:02:20 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 09:03:40 server-prod-01 nginx: 192.168.1.100 - - [09:03:40 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 09:04:41 server-prod-01 CRON[15891]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 09:06:07 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 09:06:36 server-prod-01 systemd[1]: Stopping User Manager for UID 1001...
+Jun  1 09:07:34 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 09:08:02 server-prod-01 CRON[17135]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 09:09:09 server-prod-01 systemd[1]: Started System Logging Service.
+Jun  1 09:09:39 server-prod-01 dhclient[15976]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 09:10:37 server-prod-01 systemd[1]: Stopping User Manager for UID 1001...
+Jun  1 09:12:07 server-prod-01 systemd[1]: Stopping User Manager for UID 1001...
+Jun  1 09:13:37 server-prod-01 nginx: 192.168.1.100 - - [09:13:37 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 09:14:59 server-prod-01 CRON[16824]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 09:16:28 server-prod-01 logrotate[5206]: auth.log rotated successfully.
+Jun  1 09:17:32 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 09:18:18 server-prod-01 systemd-logind[850]: Session 524 logged out. Destroying.
+Jun  1 09:19:30 server-prod-01 logrotate[14524]: alert logs rotated successfully.
+Jun  1 09:20:55 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 09:21:36 server-prod-01 systemd-logind[850]: Removed session 524.
+Jun  1 09:22:13 server-prod-01 nginx: 192.168.1.102 - - [09:22:13 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 09:23:39 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 09:24:48 server-prod-01 CRON[1828]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 09:25:21 server-prod-01 CRON[7550]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 09:25:56 server-prod-01 systemd-logind[850]: Removed session 524.
+Jun  1 09:26:18 server-prod-01 systemd-logind[850]: New session 524 of user admin_user.
+Jun  1 09:27:30 server-prod-01 systemd[1]: Started User Runtime Directory /run/user/1001.
+Jun  1 09:28:15 server-prod-01 nginx: 192.168.1.102 - - [09:28:15 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 09:29:19 server-prod-01 dhclient[11245]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 09:29:35 server-prod-01 systemd-logind[850]: New session 525 of user admin_user.
+Jun  1 09:30:37 server-prod-01 nginx: 192.168.1.100 - - [09:30:37 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 09:31:49 server-prod-01 logrotate[3440]: auth.log rotated successfully.
+Jun  1 09:32:26 server-prod-01 nginx: 192.168.1.100 - - [09:32:26 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 09:33:35 server-prod-01 systemd-logind[850]: Removed session 526.
+Jun  1 09:34:10 server-prod-01 systemd-logind[850]: New session 526 of user admin_user.
+Jun  1 09:34:44 server-prod-01 CRON[11571]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 09:35:37 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 09:36:32 server-prod-01 nginx: 192.168.1.100 - - [09:36:32 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 09:37:51 server-prod-01 logrotate[14219]: syslog rotated successfully.
+Jun  1 09:38:50 server-prod-01 sshd[11875]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 09:39:51 server-prod-01 systemd-logind[850]: New session 527 of user admin_user.
+Jun  1 09:40:20 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 09:40:40 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 09:41:27 server-prod-01 nginx: 192.168.1.102 - - [09:41:27 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 09:42:47 server-prod-01 nginx: 192.168.1.102 - - [09:42:47 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 09:43:39 server-prod-01 sshd[17839]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 09:44:06 server-prod-01 logrotate[1240]: auth.log rotated successfully.
+Jun  1 09:44:47 server-prod-01 sshd[4405]: Received disconnect from 192.168.1.50 port 55888:11: user request
+Jun  1 09:46:10 server-prod-01 dhclient[3363]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 09:46:28 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 09:46:54 server-prod-01 systemd[1]: Starting Logrotate Service...
+Jun  1 09:48:20 server-prod-01 systemd[1]: Started User Runtime Directory /run/user/1001.
+Jun  1 09:49:27 server-prod-01 dhclient[14252]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 09:50:22 server-prod-01 CRON[4876]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 09:50:45 server-prod-01 CRON[12721]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 09:51:37 server-prod-01 systemd-logind[850]: Removed session 528.
+Jun  1 09:52:48 server-prod-01 dhclient[2009]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 09:53:23 server-prod-01 nginx: 192.168.1.100 - - [09:53:23 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 09:54:47 server-prod-01 systemd-logind[850]: Removed session 528.
+Jun  1 09:55:49 server-prod-01 CRON[5038]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 09:56:04 server-prod-01 dhclient[3789]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 09:56:45 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 09:57:20 server-prod-01 logrotate[9281]: alert logs rotated successfully.
+Jun  1 09:57:49 server-prod-01 logrotate[2782]: auth.log rotated successfully.
+Jun  1 09:59:14 server-prod-01 systemd[1]: Started System Logging Service.
+Jun  1 09:59:41 server-prod-01 sshd[16964]: Disconnected from user admin_user 192.168.1.50 port 59993
+Jun  1 10:00:41 server-prod-01 logrotate[8685]: auth.log rotated successfully.
+Jun  1 10:01:32 server-prod-01 systemd[1]: Removed slice User Slice of UID 1001.
+Jun  1 10:02:49 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 10:04:16 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 10:04:31 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 10:05:21 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 10:06:35 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 10:08:00 server-prod-01 systemd[1]: Finished Logrotate Service.
+Jun  1 10:08:32 server-prod-01 nginx: 192.168.1.100 - - [10:08:32 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 10:08:56 server-prod-01 CRON[14275]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 10:09:15 server-prod-01 nginx: 192.168.1.102 - - [10:09:15 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 10:10:16 server-prod-01 dhclient[10535]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 10:11:30 server-prod-01 nginx: 192.168.1.100 - - [10:11:30 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 10:12:49 server-prod-01 CRON[6434]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 10:14:01 server-prod-01 logrotate[5790]: alert logs rotated successfully.
+Jun  1 10:15:01 server-prod-01 CRON[16979]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 10:15:24 server-prod-01 systemd-logind[850]: Session 528 logged out. Destroying.
+Jun  1 10:16:05 server-prod-01 nginx: 192.168.1.102 - - [10:16:05 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 10:17:18 server-prod-01 CRON[11619]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 10:18:39 server-prod-01 systemd-logind[850]: Removed session 528.
+Jun  1 10:19:42 server-prod-01 dhclient[3550]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 10:20:45 server-prod-01 sshd[14298]: Disconnected from user admin_user 192.168.1.50 port 60715
+Jun  1 10:21:44 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 10:22:55 server-prod-01 logrotate[3526]: alert logs rotated successfully.
+Jun  1 10:23:37 server-prod-01 logrotate[6156]: alert logs rotated successfully.
+Jun  1 10:24:07 server-prod-01 sshd[11820]: Received disconnect from 192.168.1.50 port 52865:11: user request
+Jun  1 10:25:23 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 10:26:30 server-prod-01 CRON[2413]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 10:27:58 server-prod-01 logrotate[17798]: alert logs rotated successfully.
+Jun  1 10:29:26 server-prod-01 logrotate[6450]: alert logs rotated successfully.
+Jun  1 10:30:04 server-prod-01 nginx: 192.168.1.102 - - [10:30:04 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 10:30:29 server-prod-01 sshd[16447]: Received disconnect from 192.168.1.50 port 64935:11: user request
+Jun  1 10:31:05 server-prod-01 sshd[5676]: Received disconnect from 192.168.1.50 port 55111:11: user request
+Jun  1 10:32:25 server-prod-01 systemd-logind[850]: New session 528 of user admin_user.
+Jun  1 10:33:55 server-prod-01 systemd[1]: Starting System Logging Service...
+Jun  1 10:34:26 server-prod-01 systemd[1]: Starting Logrotate Service...
+Jun  1 10:35:00 server-prod-01 systemd[1]: Finished Logrotate Service.
+Jun  1 10:36:23 server-prod-01 nginx: 192.168.1.100 - - [10:36:23 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 10:36:54 server-prod-01 nginx: 192.168.1.100 - - [10:36:54 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 10:37:56 server-prod-01 CRON[8519]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 10:38:59 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 10:39:31 server-prod-01 systemd-logind[850]: Session 529 logged out. Destroying.
+Jun  1 10:40:22 server-prod-01 nginx: 192.168.1.102 - - [10:40:22 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 10:40:37 server-prod-01 CRON[1235]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 10:41:18 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 10:41:52 server-prod-01 dhclient[9311]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 10:43:15 server-prod-01 dhclient[12981]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 10:44:20 server-prod-01 sshd[16809]: Received disconnect from 192.168.1.50 port 55008:11: user request
+Jun  1 10:45:22 server-prod-01 nginx: 192.168.1.102 - - [10:45:22 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 10:46:50 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 10:47:20 server-prod-01 sshd[6301]: Received disconnect from 192.168.1.50 port 52437:11: user request
+Jun  1 10:48:02 server-prod-01 nginx: 192.168.1.102 - - [10:48:02 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 10:48:37 server-prod-01 dhclient[1173]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 10:49:10 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 10:49:33 server-prod-01 systemd-logind[850]: New session 529 of user admin_user.
+Jun  1 10:49:52 server-prod-01 dhclient[10387]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 10:50:29 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 10:51:50 server-prod-01 systemd-logind[850]: New session 530 of user admin_user.
+Jun  1 10:52:26 server-prod-01 CRON[8839]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 10:53:01 server-prod-01 systemd[1]: Started System Logging Service.
+Jun  1 10:54:06 server-prod-01 dhclient[7563]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 10:54:29 server-prod-01 systemd[1]: Starting User Runtime Directory /run/user/1001...
+Jun  1 10:55:28 server-prod-01 systemd-logind[850]: New session 531 of user admin_user.
+Jun  1 10:56:34 server-prod-01 CRON[6735]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 10:57:53 server-prod-01 systemd[1]: Starting User Runtime Directory /run/user/1001...
+Jun  1 10:58:51 server-prod-01 systemd[1]: Stopping User Manager for UID 1001...
+Jun  1 11:00:14 server-prod-01 systemd-logind[850]: Removed session 532.
+Jun  1 11:01:41 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 11:02:54 server-prod-01 CRON[4809]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 11:03:17 server-prod-01 dhclient[8221]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 11:04:12 server-prod-01 dhclient[17924]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 11:05:00 server-prod-01 sshd[4047]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 11:05:58 server-prod-01 systemd[1]: Starting User Runtime Directory /run/user/1001...
+Jun  1 11:06:53 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 11:07:32 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 11:08:17 server-prod-01 systemd-logind[850]: New session 532 of user admin_user.
+Jun  1 11:09:03 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 11:09:28 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 11:10:44 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 11:12:12 server-prod-01 systemd-logind[850]: Session 533 logged out. Destroying.
+Jun  1 11:13:17 server-prod-01 sshd[5202]: Disconnected from user admin_user 192.168.1.50 port 50926
+Jun  1 11:14:39 server-prod-01 dhclient[2067]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 11:15:44 server-prod-01 logrotate[4944]: syslog rotated successfully.
+Jun  1 11:16:39 server-prod-01 CRON[7905]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 11:18:08 server-prod-01 systemd[1]: Starting Periodic Command Scheduler...
+Jun  1 11:18:46 server-prod-01 nginx: 192.168.1.102 - - [11:18:46 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 11:20:01 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 11:21:10 server-prod-01 sshd[13199]: Received disconnect from 192.168.1.50 port 61114:11: user request
+Jun  1 11:22:16 server-prod-01 systemd-logind[850]: Session 533 logged out. Destroying.
+Jun  1 11:23:44 server-prod-01 sshd[9845]: Accepted publickey for admin_user from 192.168.1.50 port 56878 ssh2: RSA SHA256:mQf6abc789xyz...
+Jun  1 11:25:10 server-prod-01 dhclient[7424]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 11:25:44 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 11:27:02 server-prod-01 logrotate[17941]: auth.log rotated successfully.
+Jun  1 11:28:19 server-prod-01 systemd-logind[850]: Session 533 logged out. Destroying.
+Jun  1 11:28:46 server-prod-01 logrotate[8060]: alert logs rotated successfully.
+Jun  1 11:30:01 server-prod-01 systemd[1]: Created slice User Slice of UID 1001.
+Jun  1 11:31:02 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 11:31:19 server-prod-01 dhclient[12504]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 11:32:47 server-prod-01 nginx: 192.168.1.100 - - [11:32:47 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 11:33:43 server-prod-01 nginx: 192.168.1.102 - - [11:33:43 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 11:34:46 server-prod-01 systemd-logind[850]: Session 533 logged out. Destroying.
+Jun  1 11:35:44 server-prod-01 dhclient[14263]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 11:36:09 server-prod-01 logrotate[8478]: syslog rotated successfully.
+Jun  1 11:37:04 server-prod-01 systemd-logind[850]: Removed session 533.
+Jun  1 11:37:53 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 11:38:29 server-prod-01 logrotate[5097]: alert logs rotated successfully.
+Jun  1 11:39:16 server-prod-01 systemd[1]: Starting System Logging Service...
+Jun  1 11:39:44 server-prod-01 systemd[1]: logrotate.service: Succeeded.
+Jun  1 11:40:02 server-prod-01 dhclient[3727]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 11:40:50 server-prod-01 logrotate[13774]: alert logs rotated successfully.
+Jun  1 11:41:34 server-prod-01 sshd[15521]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 11:42:05 server-prod-01 nginx: 192.168.1.100 - - [11:42:05 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 11:43:05 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 11:44:30 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 11:45:57 server-prod-01 dhclient[11146]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 11:47:13 server-prod-01 nginx: 192.168.1.100 - - [11:47:13 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 11:48:07 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 11:49:00 server-prod-01 CRON[5466]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 11:49:51 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 11:51:07 server-prod-01 systemd-logind[850]: New session 533 of user admin_user.
+Jun  1 11:51:51 server-prod-01 CRON[7179]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 11:53:17 server-prod-01 dhclient[9188]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 11:54:21 server-prod-01 dhclient[9617]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 11:55:30 server-prod-01 sshd[9908]: Disconnected from user admin_user 192.168.1.50 port 58480
+Jun  1 11:56:53 server-prod-01 systemd-logind[850]: Session 534 logged out. Destroying.
+Jun  1 11:57:31 server-prod-01 logrotate[4616]: syslog rotated successfully.
+Jun  1 11:58:43 server-prod-01 systemd-logind[850]: Removed session 534.
+Jun  1 11:59:39 server-prod-01 CRON[2626]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 12:00:17 server-prod-01 systemd[1]: Started System Logging Service.
+Jun  1 12:01:28 server-prod-01 CRON[3955]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 12:01:44 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 12:02:38 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 12:03:35 server-prod-01 systemd[1]: Stopped User Manager for UID 1001.
+Jun  1 12:04:24 server-prod-01 dhclient[16405]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 12:05:03 server-prod-01 systemd-logind[850]: Session 534 logged out. Destroying.
+Jun  1 12:05:49 server-prod-01 dhclient[9099]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 12:06:29 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 12:07:44 server-prod-01 dhclient[11227]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 12:08:19 server-prod-01 CRON[9300]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 12:09:12 server-prod-01 sshd[2706]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 12:09:41 server-prod-01 sshd[11633]: Received disconnect from 192.168.1.50 port 49645:11: user request
+Jun  1 12:10:17 server-prod-01 systemd-logind[850]: Removed session 534.
+Jun  1 12:11:03 server-prod-01 CRON[16573]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 12:12:05 server-prod-01 systemd[1]: Starting System Logging Service...
+Jun  1 12:12:31 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 12:13:31 server-prod-01 logrotate[4519]: auth.log rotated successfully.
+Jun  1 12:14:48 server-prod-01 sshd[12380]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 12:15:27 server-prod-01 CRON[12736]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 12:16:14 server-prod-01 CRON[15336]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 12:17:38 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 12:18:34 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 12:19:56 server-prod-01 logrotate[10688]: syslog rotated successfully.
+Jun  1 12:21:20 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 12:21:58 server-prod-01 CRON[8824]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 12:22:21 server-prod-01 nginx: 192.168.1.102 - - [12:22:21 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 12:23:46 server-prod-01 logrotate[10277]: auth.log rotated successfully.
+Jun  1 12:24:53 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 12:25:13 server-prod-01 logrotate[2024]: alert logs rotated successfully.
+Jun  1 12:25:41 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 12:27:09 server-prod-01 dhclient[17053]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 12:27:30 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 12:28:11 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 12:29:12 server-prod-01 nginx: 192.168.1.102 - - [12:29:12 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 12:30:01 server-prod-01 nginx: 192.168.1.100 - - [12:30:01 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 12:30:25 server-prod-01 sshd[4182]: Disconnected from user admin_user 192.168.1.50 port 52468
+Jun  1 12:31:09 server-prod-01 nginx: 192.168.1.102 - - [12:31:09 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 12:32:31 server-prod-01 sshd[6862]: Disconnected from user admin_user 192.168.1.50 port 62756
+Jun  1 12:32:59 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 12:33:27 server-prod-01 logrotate[14158]: alert logs rotated successfully.
+Jun  1 12:34:02 server-prod-01 nginx: 192.168.1.102 - - [12:34:02 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 12:35:27 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 12:36:23 server-prod-01 sshd[8009]: Disconnected from user admin_user 192.168.1.50 port 61442
+Jun  1 12:37:48 server-prod-01 systemd-logind[850]: Session 534 logged out. Destroying.
+Jun  1 12:38:53 server-prod-01 CRON[10321]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 12:40:14 server-prod-01 logrotate[1215]: syslog rotated successfully.
+Jun  1 12:40:57 server-prod-01 sshd[1711]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 12:42:22 server-prod-01 nginx: 192.168.1.100 - - [12:42:22 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 12:43:35 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 12:44:36 server-prod-01 sshd[9396]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 12:45:02 server-prod-01 dhclient[8124]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 12:45:58 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 12:46:51 server-prod-01 CRON[3571]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 12:47:48 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 12:48:32 server-prod-01 CRON[2773]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 12:49:54 server-prod-01 CRON[5901]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 12:51:13 server-prod-01 sshd[2655]: pam_unix(sshd:session): session opened for user admin_user by (uid=0)
+Jun  1 12:52:25 server-prod-01 nginx: 192.168.1.100 - - [12:52:25 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 12:53:17 server-prod-01 dhclient[5331]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 12:53:42 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 12:54:30 server-prod-01 systemd[1]: Started Periodic Command Scheduler.
+Jun  1 12:55:01 server-prod-01 logrotate[7491]: syslog rotated successfully.
+Jun  1 12:56:06 server-prod-01 sshd[9068]: Disconnected from user admin_user 192.168.1.50 port 57092
+Jun  1 12:56:30 server-prod-01 systemd-logind[850]: Session 534 logged out. Destroying.
+Jun  1 12:56:59 server-prod-01 dhclient[12969]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 12:57:38 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 12:58:14 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Jun  1 12:59:25 server-prod-01 CRON[7543]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 12:59:59 server-prod-01 systemd[1]: logrotate.service: Succeeded.
+Jun  1 13:00:32 server-prod-01 systemd-logind[850]: New session 534 of user admin_user.
+Jun  1 13:01:26 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 13:02:07 server-prod-01 nginx: 192.168.1.100 - - [13:02:07 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 13:03:32 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 13:04:35 server-prod-01 nginx: 192.168.1.100 - - [13:04:35 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 13:04:57 server-prod-01 systemd-logind[850]: New session 535 of user admin_user.
+Jun  1 13:06:11 server-prod-01 CRON[13735]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 13:07:12 server-prod-01 systemd[1]: Starting Logrotate Service...
+Jun  1 13:07:56 server-prod-01 dhclient[4263]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 13:09:13 server-prod-01 nginx: 192.168.1.100 - - [13:09:13 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 13:10:32 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 13:11:18 server-prod-01 nginx: 192.168.1.102 - - [13:11:18 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 13:12:23 server-prod-01 logrotate[12363]: alert logs rotated successfully.
+Jun  1 13:13:23 server-prod-01 systemd-logind[850]: New session 536 of user admin_user.
+Jun  1 13:13:45 server-prod-01 systemd-logind[850]: Session 537 logged out. Destroying.
+Jun  1 13:14:28 server-prod-01 logrotate[13872]: syslog rotated successfully.
+Jun  1 13:14:54 server-prod-01 dhclient[8452]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 13:15:39 server-prod-01 logrotate[11236]: syslog rotated successfully.
+Jun  1 13:16:51 server-prod-01 nginx: 192.168.1.100 - - [13:16:51 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 13:18:20 server-prod-01 nginx: 192.168.1.100 - - [13:18:20 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 13:19:42 server-prod-01 logrotate[5756]: syslog rotated successfully.
+Jun  1 13:20:37 server-prod-01 systemd[1]: Starting User Runtime Directory /run/user/1001...
+Jun  1 13:21:32 server-prod-01 logrotate[1966]: auth.log rotated successfully.
+Jun  1 13:22:39 server-prod-01 dhclient[15516]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 13:23:13 server-prod-01 sshd[5310]: Accepted publickey for admin_user from 192.168.1.50 port 55205 ssh2: RSA SHA256:mQf6abc789xyz...
+Jun  1 13:23:31 server-prod-01 systemd-logind[850]: Removed session 537.
+Jun  1 13:24:15 server-prod-01 CRON[3604]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 13:24:47 server-prod-01 nginx: 192.168.1.102 - - [13:24:47 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 13:25:51 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 13:26:30 server-prod-01 sshd[14388]: Accepted publickey for admin_user from 192.168.1.50 port 49643 ssh2: RSA SHA256:mQf6abc789xyz...
+Jun  1 13:27:19 server-prod-01 dhclient[7646]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 13:27:42 server-prod-01 logrotate[17054]: syslog rotated successfully.
+Jun  1 13:28:55 server-prod-01 sshd[14266]: Received disconnect from 192.168.1.50 port 50522:11: user request
+Jun  1 13:29:58 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 13:31:10 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 13:31:30 server-prod-01 nginx: 192.168.1.102 - - [13:31:30 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 13:32:09 server-prod-01 systemd-logind[850]: Session 537 logged out. Destroying.
+Jun  1 13:33:00 server-prod-01 kernel: [ 12.345678] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jun  1 13:33:21 server-prod-01 nginx: 192.168.1.100 - - [13:33:21 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 13:33:47 server-prod-01 nginx: 192.168.1.100 - - [13:33:47 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 13:34:52 server-prod-01 dhclient[15774]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 13:35:29 server-prod-01 kernel: [85421.102394] eth0: Link is Up - 10Gbps/Full - flow control rx/tx
+Jun  1 13:35:55 server-prod-01 systemd-logind[850]: Session 537 logged out. Destroying.
+Jun  1 13:36:21 server-prod-01 systemd[1]: Started User Manager for UID 1001.
+Jun  1 13:36:46 server-prod-01 nginx: 192.168.1.102 - - [13:36:46 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 13:37:49 server-prod-01 nginx: 192.168.1.102 - - [13:37:49 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 13:38:46 server-prod-01 logrotate[5738]: alert logs rotated successfully.
+Jun  1 13:39:07 server-prod-01 dhclient[11142]: DHCPACK via eth0 from 192.168.1.1 leases expiration
+Jun  1 13:39:58 server-prod-01 logrotate[5311]: alert logs rotated successfully.
+Jun  1 13:40:13 server-prod-01 systemd-logind[850]: New session 537 of user admin_user.
+Jun  1 13:41:31 server-prod-01 nginx: 192.168.1.100 - - [13:41:31 +0000] "GET /healthz HTTP/1.1" 200 12 "-" "Go-http-client/1.1"
+Jun  1 13:42:13 server-prod-01 kernel: [ 45.123987] TCP: cubic registered
+Jun  1 13:42:38 server-prod-01 CRON[10113]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 13:42:59 server-prod-01 logrotate[2804]: alert logs rotated successfully.
+Jun  1 13:43:18 server-prod-01 logrotate[10779]: alert logs rotated successfully.
+Jun  1 13:43:44 server-prod-01 CRON[14662]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 13:44:19 server-prod-01 systemd-logind[850]: Removed session 538.
+Jun  1 13:45:48 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 13:46:44 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 13:48:09 server-prod-01 systemd[1]: Started System Logging Service.
+Jun  1 13:48:39 server-prod-01 systemd-logind[850]: Session 538 logged out. Destroying.
+Jun  1 13:49:20 server-prod-01 CRON[3872]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 13:50:11 server-prod-01 dhclient[11370]: BOUNDTo 192.168.1.201 -- renewal in 42300 seconds.
+Jun  1 13:51:33 server-prod-01 sudo: admin_user : TTY=pts/0 ; PWD=/home/admin_user ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  1 13:52:51 server-prod-01 logrotate[8625]: auth.log rotated successfully.
+Jun  1 13:53:30 server-prod-01 CRON[1785]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 13:54:00 server-prod-01 sshd[14586]: Disconnected from user admin_user 192.168.1.50 port 62719
+Jun  1 13:54:20 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 13:55:00 server-prod-01 systemd-logind[850]: Session 538 logged out. Destroying.
+Jun  1 13:55:53 server-prod-01 nginx: 192.168.1.102 - - [13:55:53 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 13:56:50 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 13:57:29 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 13:57:48 server-prod-01 logrotate[6091]: syslog rotated successfully.
+Jun  1 13:59:11 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 14:00:32 server-prod-01 systemd-logind[850]: Removed session 538.
+Jun  1 14:01:13 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 14:02:03 server-prod-01 CRON[13295]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 14:03:31 server-prod-01 dhclient[4828]: DHCPREQUEST via eth0 to 192.168.1.1 port 67
+Jun  1 14:04:26 server-prod-01 CRON[14561]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun  1 14:05:44 server-prod-01 sshd[15808]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 14:06:26 server-prod-01 nginx: 192.168.1.102 - - [14:06:26 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 14:07:28 server-prod-01 CRON[4034]: (root) CMD (/usr/local/bin/cleanup_tmp.sh > /dev/null 2>&1)
+Jun  1 14:08:47 server-prod-01 CRON[17385]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 14:09:26 server-prod-01 sudo: admin_user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 syslog
+Jun  1 14:09:59 server-prod-01 systemd[1]: Stopped User Manager for UID 1001.
+Jun  1 14:10:40 server-prod-01 CRON[13700]: (root) CMD (/usr/bin/monitoring_health_check.sh)
+Jun  1 14:10:55 server-prod-01 systemd-logind[850]: New session 538 of user admin_user.
+Jun  1 14:12:09 server-prod-01 CRON[11239]: (root) CMD (command -v debian-sa1 && debian-sa1 1 1)
+Jun  1 14:13:37 server-prod-01 systemd-logind[850]: Removed session 539.
+Jun  1 14:14:17 server-prod-01 sshd[10065]: pam_unix(sshd:session): session closed for user admin_user
+Jun  1 14:15:28 server-prod-01 systemd[1]: Started System Logging Service.
+Jun  1 14:16:18 server-prod-01 systemd[1]: Starting Logrotate Service...
+Jun  1 14:16:59 server-prod-01 nginx: 192.168.1.102 - - [14:16:59 +0000] "GET /metrics HTTP/1.1" 200 2451 "-" "Prometheus/2.35.0"
+Jun  1 14:17:32 server-prod-01 systemd-logind[850]: Removed session 539.
+Jun  1 14:17:56 server-prod-01 systemd-logind[850]: Removed session 539.
+Jun  1 14:18:17 server-prod-01 logrotate[16425]: alert logs rotated successfully.
+Jun  1 14:18:45 server-prod-01 dhclient[3821]: DHCPREQUEST via eth0 to 192.168.1.1 port 67

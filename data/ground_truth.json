@@ -1,0 +1,302 @@
+[
+  {
+    "line": 3,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 8,
+    "label": "anomaly",
+    "type": "web_attack"
+  },
+  {
+    "line": 9,
+    "label": "anomaly",
+    "type": "bruteforce"
+  },
+  {
+    "line": 13,
+    "label": "anomaly",
+    "type": "privilege_escalation"
+  },
+  {
+    "line": 16,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 21,
+    "label": "anomaly",
+    "type": "web_attack"
+  },
+  {
+    "line": 24,
+    "label": "anomaly",
+    "type": "bruteforce"
+  },
+  {
+    "line": 26,
+    "label": "anomaly",
+    "type": "privilege_escalation"
+  },
+  {
+    "line": 30,
+    "label": "anomaly",
+    "type": "bruteforce"
+  },
+  {
+    "line": 32,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 33,
+    "label": "anomaly",
+    "type": "web_attack"
+  },
+  {
+    "line": 36,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 39,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 44,
+    "label": "anomaly",
+    "type": "bruteforce"
+  },
+  {
+    "line": 47,
+    "label": "anomaly",
+    "type": "bruteforce"
+  },
+  {
+    "line": 51,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 54,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 58,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 60,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 65,
+    "label": "anomaly",
+    "type": "web_attack"
+  },
+  {
+    "line": 69,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 72,
+    "label": "anomaly",
+    "type": "web_attack"
+  },
+  {
+    "line": 75,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 77,
+    "label": "anomaly",
+    "type": "bruteforce"
+  },
+  {
+    "line": 82,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 84,
+    "label": "anomaly",
+    "type": "web_attack"
+  },
+  {
+    "line": 86,
+    "label": "anomaly",
+    "type": "privilege_escalation"
+  },
+  {
+    "line": 89,
+    "label": "anomaly",
+    "type": "privilege_escalation"
+  },
+  {
+    "line": 91,
+    "label": "anomaly",
+    "type": "bruteforce"
+  },
+  {
+    "line": 93,
+    "label": "anomaly",
+    "type": "web_attack"
+  },
+  {
+    "line": 95,
+    "label": "anomaly",
+    "type": "privilege_escalation"
+  },
+  {
+    "line": 100,
+    "label": "anomaly",
+    "type": "bruteforce"
+  },
+  {
+    "line": 101,
+    "label": "anomaly",
+    "type": "privilege_escalation"
+  },
+  {
+    "line": 106,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 111,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 112,
+    "label": "anomaly",
+    "type": "bruteforce"
+  },
+  {
+    "line": 114,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 118,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 121,
+    "label": "anomaly",
+    "type": "web_attack"
+  },
+  {
+    "line": 128,
+    "label": "anomaly",
+    "type": "web_attack"
+  },
+  {
+    "line": 132,
+    "label": "anomaly",
+    "type": "web_attack"
+  },
+  {
+    "line": 135,
+    "label": "anomaly",
+    "type": "privilege_escalation"
+  },
+  {
+    "line": 137,
+    "label": "anomaly",
+    "type": "bruteforce"
+  },
+  {
+    "line": 139,
+    "label": "anomaly",
+    "type": "privilege_escalation"
+  },
+  {
+    "line": 143,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 144,
+    "label": "anomaly",
+    "type": "privilege_escalation"
+  },
+  {
+    "line": 148,
+    "label": "anomaly",
+    "type": "bruteforce"
+  },
+  {
+    "line": 151,
+    "label": "anomaly",
+    "type": "web_attack"
+  },
+  {
+    "line": 153,
+    "label": "anomaly",
+    "type": "bruteforce"
+  },
+  {
+    "line": 157,
+    "label": "anomaly",
+    "type": "bruteforce"
+  },
+  {
+    "line": 158,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 161,
+    "label": "anomaly",
+    "type": "web_attack"
+  },
+  {
+    "line": 163,
+    "label": "anomaly",
+    "type": "privilege_escalation"
+  },
+  {
+    "line": 164,
+    "label": "anomaly",
+    "type": "web_attack"
+  },
+  {
+    "line": 168,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 170,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 171,
+    "label": "anomaly",
+    "type": "privilege_escalation"
+  },
+  {
+    "line": 173,
+    "label": "anomaly",
+    "type": "system_fault"
+  },
+  {
+    "line": 177,
+    "label": "anomaly",
+    "type": "web_attack"
+  },
+  {
+    "line": 180,
+    "label": "anomaly",
+    "type": "web_attack"
+  }
+]
